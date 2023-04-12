@@ -5,8 +5,6 @@ import TeamRow from '../components/TeamRow';
 
 const divisionBtnClassName = "division rounded-full flex align-center justify-center w-6 h-6 leading-6 text-xs cursor-pointer";
 
-
-
 export default function Standings() {
     const [animationParent] = useAutoAnimate();
     const [division, setDivision] = useState<'1' | '2'>('1');
