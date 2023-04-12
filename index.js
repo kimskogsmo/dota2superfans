@@ -7,7 +7,6 @@ import {
 import Layout from './src/Layout';
 import Team from './src/pages/Team'
 import Standings from './src/pages/Standings';
-import Players from './src/pages/Players';
 
 const router = createBrowserRouter([
     {
